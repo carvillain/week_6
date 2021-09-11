@@ -1,0 +1,53 @@
+.body{
+    background-image: url('/racecar_api/images/1_KzdMBPeaAJYofp9OASXM1w.jpeg');
+    color: white;
+}
+
+/*Nav Styles */
+.ct-nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Target Main Logo Image */
+.ct-nav img{
+    width: 20%;
+    max-width: 100%;
+    margin-left: 2vw;
+}
+
+ul#horizontal-list{
+    min-width: 696px;
+    list-style: none;
+    padding-top: 20px;
+}
+
+ul#horizontal-list li, ul#horizontal-list a{
+    display: inline;
+    text-decoration:none;
+    color:white;
+    margin: 1.25vw;
+}
+
+ul#horizontal-list a{
+    border: 2px solid red;
+    border-radius: 11px;
+    margin-right: 0.2vw;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+
+}
+
+#response{
+    display: flex;
+    background-color: red;
+    color: white;
+}
