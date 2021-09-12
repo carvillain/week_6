@@ -1,4 +1,4 @@
-let apiKey = "949b92bbd47bb1f5763bafe887da8df1";
+let apiKey = "whatever it is";
 
 fetchData = function (city) {
     fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&units=imperial&appid=${apiKey}`
