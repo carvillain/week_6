@@ -1,0 +1,28 @@
+html, body{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    height: 100%;
+    background-image: url(/images/earth.jpg);
+}
+
+.container{
+    background-color: rgba(255,255,255,0.85);
+    border-radius: 8%;
+    font-weight: 700;
+    padding: 15px;
+    color: black;
+}
+
+.city{
+    font-size: 35px;
+    font-style: italic;
+}
